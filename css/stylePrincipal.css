@@ -67,7 +67,8 @@
 }
 
 #divImgError{
-    background-image: url(../imagens/gabrielFrontal.png);
+    background-image: url(../imagens/mandou.png);
+    /* background-image: url(../imagens/gabrielFrontal.png); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -75,6 +76,7 @@
     width: 400px;
     margin-top: 10px;
     border-bottom: 2px solid #fd6d01;
+    animation: aparecendo 3s;
 }
 
 #divMensagem{
@@ -89,6 +91,7 @@
     color: white;
     font-family: tantofaz;
     letter-spacing: 1.5px;
+    animation: aparecendo 5s;
 }
 
 
@@ -101,6 +104,7 @@
     font-size: 1.8rem;
     font-weight: bolder;
     font-family: tantofaz2;
+    margin-top: 10px;
 }
 
 #paragrafoSupere{
@@ -118,6 +122,7 @@
     margin: auto;
     animation: rodandoButao 3s infinite backwards alternate;
     font-size: 1.3rem;
+    margin-bottom: 30px;
     
 }
 
@@ -139,7 +144,7 @@
 }
 
 #divImagens{
-    padding-top: 20px;
+    padding-top: 30px;
     color: #fd6d01;
     margin-bottom: 15px;
 }
@@ -202,5 +207,62 @@
 }
 
 #aparecerDepois{
-    display: none;
+    display: block;
+}
+
+#online{
+    margin-top: 40px;
+    box-shadow: 155px -2px 5px #fd6d01;
+}
+
+#imgOn{
+    margin-top: 5px;
+    float: right;
+}
+
+#consultoria{
+    color: white;
+    font-family: tantofaz2;
+    margin-top: 40px;
+    font-size: 2.8rem;
+    color:#fd6d01 ;
+    margin-left: 10px;
+    text-shadow: 1px 2px 3px #fd6d01;
+}
+
+#consultoria span{
+    color: white;
+    font-family: tantofaz;
+    font-size: 4rem;
+    margin-top: 20px;
+}
+
+.efe{
+    opacity: 0;
+}
+
+.efect{
+    opacity: 1;
+    animation: efectScroll 1s;
+}
+
+
+#voce{
+    animation: vindoLado 3s;
+}
+@keyframes aparecendo{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes vindoLado{
+    from{
+        margin-left: -400px;
+    }to{
+        margin-right: 0;
+    }
 }
