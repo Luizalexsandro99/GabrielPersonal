@@ -240,7 +240,6 @@
 }
 
 
-
 #voce{
     animation: vindoLado 3s;
 }
@@ -264,4 +263,52 @@
 #butaoCardFooter{
     background-color:#fd6d01 ;
     width: 100%;
+}
+
+#imggabipc{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10% 20%;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.404);
+}
+
+#cardOn{
+    margin-bottom: 10px;
+}
+
+@media(max-width:376px){
+    #consultoria{
+        color: white;
+        font-family: tantofaz2;
+        font-size: 1.4rem;
+        color:#fd6d01 ;
+        margin-left: 10px;
+        text-shadow: 1px 2px 3px #fd6d01;
+    }
+    
+    #consultoria span{
+        color: white;
+        font-family: tantofaz;
+        font-size: 1.6rem;
+    
+    }
+}
+
+@media(min-width:377px) and (max-width:398px){
+    #consultoria{
+        color: white;
+        font-family: tantofaz2;
+        font-size: 1.6rem;
+        color:#fd6d01 ;
+        margin-left: 10px;
+        text-shadow: 1px 2px 3px #fd6d01;
+    }
+    
+    #consultoria span{
+        color: white;
+        font-family: tantofaz;
+        font-size: 1.8rem;
+    
+    }
 }
