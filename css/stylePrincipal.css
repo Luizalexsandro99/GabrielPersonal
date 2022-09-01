@@ -76,7 +76,7 @@
     width: 400px;
     margin-top: 10px;
     border-bottom: 2px solid #fd6d01;
-    animation: aparecendo 3s;
+    animation: aparecendo 8s;
 }
 
 #divMensagem{
@@ -239,14 +239,6 @@
 
 }
 
-.efe{
-    opacity: 0;
-}
-
-.efect{
-    opacity: 1;
-    animation: efectScroll 1s;
-}
 
 
 #voce{
@@ -267,4 +259,9 @@
     }to{
         margin-right: 0;
     }
+}
+
+#butaoCardFooter{
+    background-color:#fd6d01 ;
+    width: 100%;
 }
