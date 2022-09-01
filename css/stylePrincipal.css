@@ -196,3 +196,7 @@
 .linkwpp{
     color: white;
 }
+
+#aparecerDepois{
+    display: none;
+}

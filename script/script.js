@@ -6,6 +6,7 @@ setTimeout(()=>{
 }, 5000)
 
 setTimeout(()=>{
+    aparecerDepois.style.display = 'block'
     aparecerDepois.classList.add('aparecendo')
 }, 5000)
 
