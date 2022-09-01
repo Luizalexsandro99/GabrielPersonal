@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: tantoFaz;
+    src: url('../font3.ttf');
+}
+
+@font-face {
+    font-family: tantofaz2;
+    src: url('../font1gab.otf');
+}
+
+
+
+#divPrincipal{
+    background-image: linear-gradient(to left, #323435, #323435ec);
+    height: 100%;
+}
+
+#divImgLogo{
+    background-image: url('../imagens/gabrielCostas.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 180px;
+    box-shadow: -35px 1.5px 6px #fd6d01;
+}
+
+#imgLogo{
+    display: block;
+    margin: auto;
+    margin-top: 78px;
+}
+
+#divTextPersonal{
+    background-color: red;
+}
+
+#transforme{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    animation: passando 3s infinite forwards alternate ;
+}
+
+.transformeIndo{
+    display: none;
+}
+
+@keyframes passando{
+    from{
+        opacity: 0.5;
+        text-shadow: 1px 15px 5px black;
+    }
+    to{
+        opacity: 1;
+        text-shadow: 1px 5px 5px rgb(255, 0, 0);
+        
+    }
+}
+
+#divImgError{
+    background-image: url(../imagens/gabrielFrontal.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    border-bottom: 2px solid #fd6d01;
+}
+
+#divMensagem{
+    margin-top: 10px;
+}
+
+#mensagemInicial{
+    font-size: 2.6rem;
+    margin-top: 10px;
+    text-shadow: 5px 2px 4px orangered;
+    color: white;
+    font-family: tantofaz;
+}
+
+
+#divHiper{
+    padding-top: 20px;
+    color: #fd6d01;
+}
+
+#divHiper h4{
+    font-size: 1.8rem;
+}
+
+#paragrafoSupere{
+    text-align: justify;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    font-family: tantoFaz;
+}
+
+#butao{
+    background-color: #fd6d01;
+    color: white;
+    width: 80%;
+    margin: auto;
+    animation: rodandoButao 3s infinite backwards alternate;
+}
+
+@keyframes rodandoButao{
+    0%{
+        border: 2px solid red;
+    }
+    50%{
+        border: 2px solid #fd6d01;
+    }
+    100%{
+        border: 2px solid rgb(255, 0, 0);
+    }
+}
+
+#resultado{
+    box-shadow: -35px 2px 3px #fd6d01;
+    padding-bottom: 10px;
+}
+
+#divImagens{
+    padding-top: 20px;
+    color: #fd6d01;
+    margin-bottom: 15px;
+}
+
+#divImagens h4{
+    font-size: 1.8rem;
+}
+
+#card1{
+    border: 1px solid #fd6d01;
+    margin-bottom: 10px;
+}
+
+#butaoCard{
+    background-color: #fd6d01;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+
+#aparecerPrimeiro{
+    height: 100vh;
+}
+
+/* #aparecerDepois{
+    display: none;
+} */
+
+.aparecendo{
+    animation: aparecerTudo 2s ;
+}
+
+@keyframes aparecerTudo{
+    from{
+        opacity: 0;
+        display: none;
+    }50%{
+        display: block;
+        opacity: 0.5;
+    }100%{
+        display: block;
+        opacity: 1;
+    }
+}
+
