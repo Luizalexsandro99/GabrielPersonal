@@ -46,6 +46,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 5px;
     animation: passando 3s infinite forwards alternate ;
+    color: white;
+    margin-top: 30%;
 }
 
 .transformeIndo{
