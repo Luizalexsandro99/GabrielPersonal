@@ -14,26 +14,28 @@
     src: url('../font1gab.otf');
 }
 
+body{
+    background-image: url(../imagens/texturaOpacity.jpg);
+    opacity: 01;
+        
+}
+
 
 
 #divPrincipal{
-    background-image: linear-gradient(to left, #323435, #323435ec);
+    opacity: 1;
     height: 100%;
 }
 
 #divImgLogo{
-    background-image: url('../imagens/gabrielCostas.png');
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    height: 180px;
+    height: 160px;
     box-shadow: -35px 1.5px 6px #fd6d01;
 }
 
 #imgLogo{
     display: block;
     margin: auto;
-    margin-top: 78px;
+    margin-top: -35px;
 }
 
 #divTextPersonal{
@@ -172,10 +174,6 @@
 #aparecerPrimeiro{
     height: 100vh;
 }
-
-/* #aparecerDepois{
-    display: none;
-} */
 
 .aparecendo{
     animation: aparecerTudo 2s ;
