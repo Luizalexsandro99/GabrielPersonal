@@ -1,6 +1,7 @@
 const aparecerPrimeiro = document.querySelector('#aparecerPrimeiro')
 const aparecerDepois = document.querySelector('#aparecerDepois')
 const scrol = document.querySelector('#scrol')
+const voceprecisa = document.querySelector('#voceprecisa')
 
 
 const target = document.querySelectorAll('.efe')

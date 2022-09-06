@@ -20,6 +20,15 @@ body{
         
 }
 
+/* #voceprecisa{
+    text-align: center;
+    font-family: tantofaz;
+    font-size: 2rem;
+    color: #8d8f91 ;
+    margin-bottom: -15px;
+    animation: aparecendo 6s;
+} */
+
 #scrol{
     margin-top: 10px;
     text-align: center;
@@ -335,11 +344,14 @@ body{
 
     #voceprecisa{
         text-align: center;
-        font-family: tantofaz2;
-        font-size: 2rem;
-        color: #8d8f91 ;
+        font-family: tantofaz;
+        color: #fd6d01 ;
         margin-bottom: -15px;
         animation: aparecendo 8s;
+    }
+
+    #voceprecisa h4{
+        font-size: 2.5rem;
     }
 }
 
@@ -388,6 +400,28 @@ body{
         margin-top: 10px;
         animation: aparecendo 6s;
     }
+
+    #divHiper h4{
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 5px orangered;
+    }
+
+    #divImagens h4{
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 5px orangered;
+    }
+
+    #voceprecisa{
+        text-align: center;
+        font-family: tantofaz;
+        color: #fd6d01 ;
+        margin-bottom: -15px;
+        animation: aparecendo 8s;
+    }
+
+    #voceprecisa h4{
+        font-size: 2.5rem;
+    }
 }
 
 .efe{
@@ -408,11 +442,25 @@ body{
     }
 }
 
-#voceprecisa{
-    text-align: center;
-    font-family: tantofaz2;
-    font-size: 2rem;
-    color: #8d8f91 ;
-    margin-bottom: -15px;
-    animation: aparecendo 6s;
+/* @keyframes sumindoVoce{
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
 }
+
+.sumindo{
+    animation: sumindoVoce 6s forwards;
+} */
