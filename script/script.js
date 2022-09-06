@@ -1,14 +1,25 @@
 const aparecerPrimeiro = document.querySelector('#aparecerPrimeiro')
 const aparecerDepois = document.querySelector('#aparecerDepois')
+const scrol = document.querySelector('#scrol')
 
 
-/* setTimeout(()=>{
-    aparecerPrimeiro.classList.add('transformeIndo')
-}, 5000) */
+const target = document.querySelectorAll('.efe')
+const animationClass = 'efect'
 
-/* setTimeout(()=>{
-    aparecerDepois.style.display = 'block'
-    aparecerDepois.classList.add('aparecendo')
-}, 5000) */
+function animeScroll(){
+    const windowTop = window.pageYOffset;
+    target.forEach(function (element){
+        if(windowTop + 350 >= element.offsetTop){
+            element.classList.add('efect')
+        }
+        if(element.classList.contains('efe')){
+            scrol.style.display = 'none'
+        }
+    })
+}
+
+window.addEventListener('scroll', function(){
+    animeScroll()
+})
 
 

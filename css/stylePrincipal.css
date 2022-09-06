@@ -20,11 +20,29 @@ body{
         
 }
 
+#scrol{
+    margin-top: 10px;
+    text-align: center;
+}
 
+#scrol h5{
+    font-family: tantofaz2;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 5px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+
+.setaImg{
+    margin-top: -7px;
+}
 
 #divImgLogo{
     height: 160px;
-    box-shadow: -35px 1.5px 6px #fd6d01;
+    box-shadow: -35px 0.01px 1px #323435;
 }
 
 #imgLogo{
@@ -64,15 +82,13 @@ body{
 }
 
 #divImgError{
-    background-image: url(../imagens/mandou.png);
-    /* background-image: url(../imagens/gabrielFrontal.png); */
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     height: 300px;
-    width: 400px;
+    width: 300px;
+    background-image: url(../imagens/newnofound.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-top: 10px;
-    /* border-bottom: 2px solid #fd6d01; */
     animation: aparecendo 8s;
 }
 
@@ -277,7 +293,6 @@ body{
         font-family: tantofaz2;
         font-size: 1.4rem;
         color:#fd6d01 ;
-        margin-left: 10px;
         text-shadow: 1px 2px 3px #fd6d01;
     }
     
@@ -286,6 +301,45 @@ body{
         font-family: tantofaz;
         font-size: 1.6rem;
     
+    }
+
+    #mensagemInicial{
+        font-size: 2.6rem;
+        margin-left: -5px;
+        margin-top: 20px;
+    }
+
+    #divHiper h4{
+        font-size: 1.5rem;
+    }
+
+    #divImagens h4{
+        font-size: 1.5rem;
+    }
+
+    .linkwpp{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    #divImgError{
+        height: 300px;
+        width: 300px;
+        background-image: url(../imagens/newnofound.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        animation: aparecendo 8s;
+    }
+
+    #voceprecisa{
+        text-align: center;
+        font-family: tantofaz2;
+        font-size: 2rem;
+        color: #8d8f91 ;
+        margin-bottom: -15px;
+        animation: aparecendo 8s;
     }
 }
 
@@ -294,7 +348,7 @@ body{
         color: white;
         font-family: tantofaz2;
         font-size: 1.6rem;
-        color:#fd6d01 ;
+        color:#fd6d01;
         margin-left: 10px;
         text-shadow: 1px 2px 3px #fd6d01;
     }
@@ -303,6 +357,53 @@ body{
         color: white;
         font-family: tantofaz;
         font-size: 1.8rem;
-    
+    }
+
+    #mensagemInicial{
+        font-size: 2.6rem;
+        margin-left: -5px;
+        margin-top: 20px;
+    }
+
+    #butaoCard a{
+        font-size:1.2rem ;
+    }
+
+    #voceprecisa{
+        text-align: center;
+        font-family: tantofaz2;
+        font-size: 2rem;
+        color: #8d8f91 ;
+        margin-bottom: -15px;
+        animation: aparecendo 6s;
+    }
+
+    #divImgError{
+        height: 350px;
+        width: 350px;
+        background-image: url(../imagens/newnofound.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        animation: aparecendo 6s;
+    }
+}
+
+.efe{
+    opacity: 0;
+}
+
+.efect{
+    opacity: 1;
+    animation: aparecendo 1s;
+}
+
+@keyframes efectScroll{
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 0;
     }
 }
