@@ -464,3 +464,15 @@ body{
 .sumindo{
     animation: sumindoVoce 6s forwards;
 } */
+
+#voceprecisa{
+    text-align: center;
+    font-family: tantofaz;
+    color: #fd6d01 ;
+    margin-bottom: -15px;
+    animation: aparecendo 8s;
+}
+
+#voceprecisa h4{
+    font-size: 2.5rem;
+}
