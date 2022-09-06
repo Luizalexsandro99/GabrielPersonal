@@ -407,3 +407,12 @@ body{
         margin-left: 0;
     }
 }
+
+#voceprecisa{
+    text-align: center;
+    font-family: tantofaz2;
+    font-size: 2rem;
+    color: #8d8f91 ;
+    margin-bottom: -15px;
+    animation: aparecendo 6s;
+}
